@@ -1,26 +1,7 @@
- /*
- ***************************************************************************************************************************************************+
- * NUTRITIONIX.com                                                                                                                                  |
- *                                                                                                                                                  |
- * This plugin allows you to create a fully customizable nutrition label                                                                            |
- *                                                                                                                                                  |
- * @authors             Leo Joseph Gajitos <leejay22@gmail.com>, Rommel Malang <genesis23rd@gmail.com> and Yurko Fedoriv <yurko.fedoriv@gmail.com>  |
- * @copyright           Copyright (c) 2017 Nutritionix.                                                                                             |
- * @license             This Nutritionix jQuery Nutrition Label is dual licensed under the MIT and GPL licenses.                                    |
- * @link                http://www.nutritionix.com                                                                                                  |
- * @github              http://github.com/nutritionix/nutrition-label                                                                               |
- * @current version     10.0.1                                                                                                                      |
- * @stable version      9.0.10                                                                                                                      |
- * @supported browser   Firefox, Chrome, IE8+                                                                                                       |
- * @description         To be able to create a FDA-style nutrition label with any nutrition data source                                             |
- *                                                                                                                                                  |
- ***************************************************************************************************************************************************+
-*/
+
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black");
 
-/*******************************************************************************************************************
-***********************************START OF THE LEGACY RELATED STYLES**********************************************
-******************************************************************************************************************/
+
 .nutritionLabel input.unitQuantityBox.ui-input-text {
 	margin-top: 0;
 	border-radius: 0;
@@ -183,17 +164,6 @@
 	line-height: 0em;
 }
 
-/* .nutritionLabel a.unitQuantityUp {
-	padding-bottom: 1px;
-	background: transparent url("images/up.png") left top no-repeat;
-	z-index: 9999;
-}
-
-.nutritionLabel a.unitQuantityDown {
-	padding-top: 1px;
-	background: transparent url("images/down.png") left bottom no-repeat;
-	z-index: 9999;
-} */
 
 .nutritionLabel input.unitQuantityBox {
 	width:25px;
@@ -246,10 +216,7 @@
 	clear: both;
 }
 
-/**
-* For IE 6/7 only
-* Include this rule to trigger hasLayout and contain floats.
-*/
+
 .cf {
 	*zoom: 1;
 }
@@ -271,15 +238,7 @@
 }
 .nutritionLabel .ingredientListDiv {
 	padding-top: 10px;
-}
-/*******************************************************************************************************************
-*************************************END OF THE LEGACY RELATED STYLES**********************************************
-******************************************************************************************************************/
 
-
-/*******************************************************************************************************************
-***********************************START OF THE 2018 LABEL RELATED STYLES******************************************
-******************************************************************************************************************/
 .nf {
 	border: 1px solid #000;
 	padding: 6px;
