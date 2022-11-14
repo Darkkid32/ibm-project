@@ -1,21 +1,4 @@
-/*
- ***************************************************************************************************************************************************+
- * NUTRITIONIX.com                                                                                                                                  |
- *                                                                                                                                                  |
- * This plugin allows you to create a fully customizable nutrition label                                                                            |
- *                                                                                                                                                  |
- * @authors             Leo Joseph Gajitos <leejay22@gmail.com>, Rommel Malang <genesis23rd@gmail.com> and Yurko Fedoriv <yurko.fedoriv@gmail.com>  |
- * @copyright           Copyright (c) 2017 Nutritionix.                                                                                             |
- * @license             This Nutritionix jQuery Nutrition Label is dual licensed under the MIT and GPL licenses.                                    |
- * @link                http://www.nutritionix.com                                                                                                  |
- * @github              http://github.com/nutritionix/nutrition-label                                                                               |
- * @current version     10.0.1                                                                                                                      |
- * @stable version      9.0.10                                                                                                                      |
- * @supported browser   Firefox, Chrome, IE8+                                                                                                       |
- * @description         To be able to create a FDA-style nutrition label with any nutrition data source                                             |
- *                                                                                                                                                  |
- ***************************************************************************************************************************************************+
-*/
+
 ;(function($) {
 	$.fn.nutritionLabel = function(option, settings) {
 		if (typeof option === 'object') {
