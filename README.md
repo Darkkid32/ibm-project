@@ -22,10 +22,7 @@ How To Use:
 
 # Getting Started
 Link to deployed app (https://salty-ravine-80275.herokuapp.com/)
----
 
-
-# Credits
 
 
 
